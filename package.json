@@ -14,7 +14,7 @@
   },
   "scripts": {
     "backend": ". .venv/bin/activate && python3 ./backend/main.py",
-    "postinstall": "python3 -m venv .venv && pip3 install -r requirements.txt",
+    "postinstall": "python3 -m venv .venv && . .venv/bin/activate && pip3 install -r requirements.txt",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
